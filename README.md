@@ -51,14 +51,14 @@ Default:
 
 ```sh
 npm uninstall @ionic-native/fcm # Ionic support is included and conflicts with @ionic-native's implementation.
-npm install cordova-plugin-fcm-with-dependecy-updated@git+https://github.com/4sh/cordova-plugin-fcm-with-dependecy-updated.git#7.10.0
+npm install cordova-plugin-fcm-with-dependecy-updated@git+https://github.com/wundersolutions-juanjo/cordova-plugin-fcm-with-dependecy-updated.git#7.10.0
 ```
 
 Complete:
 
 ```sh
 npm uninstall @ionic-native/fcm # Ionic support is included and conflicts with @ionic-native's implementation.
-npm install cordova-plugin-fcm-with-dependecy-updated@git+https://github.com/4sh/cordova-plugin-fcm-with-dependecy-updated.git#7.10.0 \
+npm install cordova-plugin-fcm-with-dependecy-updated@git+https://github.com/wundersolutions-juanjo/cordova-plugin-fcm-with-dependecy-updated.git#7.10.0 \
   --variable ANDROID_DEFAULT_NOTIFICATION_ICON="@mipmap/ic_launcher" \
   --variable ANDROID_FIREBASE_BOM_VERSION="26.0.0" \
   --variable ANDROID_GOOGLE_SERVICES_VERSION="4.3.4" \
@@ -312,4 +312,3 @@ FCM.onTokenRefresh().subscribe((token: string) => {
   // ...
 });
 ```
-

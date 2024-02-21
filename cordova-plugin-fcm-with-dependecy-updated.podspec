@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 DESC
 
-  spec.homepage     = "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated"
+  spec.homepage     = "https://github.com/wundersolutions-juanjo/cordova-plugin-fcm-with-dependecy-updated"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

@@ -15,7 +15,7 @@ declare namespace window {
     pluginName: 'FCM',
     plugin: 'cordova-plugin-fcm-with-dependecy-updated',
     pluginRef: 'FCM',
-    repo: 'https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated',
+    repo: 'https://github.com/wundersolutions-juanjo/cordova-plugin-fcm-with-dependecy-updated',
     platforms: ['Android', 'iOS'],
 })
 @Injectable()
